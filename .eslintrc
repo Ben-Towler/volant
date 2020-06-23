@@ -1,0 +1,4 @@
+{
+  "extends": "airbnb",
+  "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.test.ts", "**/*.test.tsx"]}]
+}

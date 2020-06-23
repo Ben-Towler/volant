@@ -1,9 +1,13 @@
-import Index from './index.js';
+import Index from './index';
 
-it('renders without crashing', () => {
-  expect(
-    JSON.stringify(
-      Object.assign({}, Index, { _reactInternalInstance: 'censored' }),
-    ),
-  ).toMatchSnapshot();
+describe('App', () => {
+  
+  test('Renders without crashing', () => {
+    expect(
+      JSON.stringify(
+        ({}, Index, { _reactInternalInstance: 'censored' }),
+      ),
+    ).toMatchSnapshot();
+  });
+
 });
