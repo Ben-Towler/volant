@@ -4,7 +4,7 @@ describe('App', () => {
   test('Renders without crashing', () => {
     expect(
       JSON.stringify(
-        ({}, Index, { _reactInternalInstance: 'censored' }),
+        (Index),
       ),
     ).toMatchSnapshot();
   });
