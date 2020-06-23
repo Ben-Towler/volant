@@ -1,0 +1,1 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/894d786e166d4516840e12812119809b)](https://www.codacy.com/manual/Ben-Towler/volant?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Ben-Towler/volant&amp;utm_campaign=Badge_Grade)
