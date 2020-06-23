@@ -1,7 +1,6 @@
 import Index from './index';
 
 describe('App', () => {
-  
   test('Renders without crashing', () => {
     expect(
       JSON.stringify(
@@ -9,5 +8,4 @@ describe('App', () => {
       ),
     ).toMatchSnapshot();
   });
-
 });
